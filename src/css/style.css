@@ -130,3 +130,67 @@ body {
 .cart i {
     font-size: 20px;
 }
+
+
+/* HERO */
+
+.hero {
+   position: relative;
+   min-height: 90vh;
+
+   background: url(/src/assets/img/banner.png)
+    center / cover no-repeat;
+
+   display: flex;
+   align-items: center;
+   justify-content: flex-start;
+   padding-left: 120px;
+   text-align: left;
+}
+
+.hero-content {
+    position: relative;
+    max-width: 650px;
+    
+    color: var(--branco);
+}
+ /* TITULO */
+.hero-content h2 {
+    font-size: 4rem;
+    line-height: 1.1;
+
+    font-family: var(--Font-primary);
+    margin-bottom: 15px;
+}
+
+/* TEXTO */
+
+.hero-content p {
+    font-size: 1.2rem;
+    color: var(--cinza);
+
+    margin-bottom: 25PX;
+}
+
+/* BOTÃO */
+
+.hero-content a {
+    display: inline-flex;
+
+    padding: 14px 28px;
+    border-radius: 8px;
+
+    background: var(--verde-neon);
+    color: var(--preto);
+
+    text-decoration: none;
+    font-weight: 700;
+
+    transition: 0.3s;
+}
+
+.hero-content a:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 0 20px var(--verde-neon);
+}
+
